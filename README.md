@@ -1,1 +1,1 @@
-# Tech--blog-site
+# Techeth-blog-site
