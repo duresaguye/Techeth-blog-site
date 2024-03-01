@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    padding: 10px; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc; 
+    padding: 10px; 
+}
+
+/* Styles for the logo */
+.logo img {
+    border-radius: 50%; 
+    width: 60px; 
+    height: 60px; 
+}
+
+/* Styles for the navigation links */
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-links li a:hover {
+    color: blue; 
+}
